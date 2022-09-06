@@ -6,33 +6,33 @@ Lista em "https://wiki.python.org.br/ListaDeExercicios"
 
 **EstruturaSequencial**
 
-->OK - 001. Faça um Programa que mostre a mensagem "Alo mundo" na tela.  ->OK
+001. Faça um Programa que mostre a mensagem "Alo mundo" na tela.  ->OK
 
-->OK - 002. Faça um Programa que peça um número e então mostre a mensagem O número informado foi [número]. ->OK
+002. Faça um Programa que peça um número e então mostre a mensagem O número informado foi [número]. ->OK
 
-->OK - 003. Faça um Programa que peça dois números e imprima a soma. ->OK
+003. Faça um Programa que peça dois números e imprima a soma. ->OK
 
-->OK - 004. Faça um Programa que peça as 4 notas bimestrais e mostre a média. ->OK
+004. Faça um Programa que peça as 4 notas bimestrais e mostre a média. ->OK
 
-->OK - 005. Faça um Programa que converta metros para centímetros.->OK
+005. Faça um Programa que converta metros para centímetros.->OK
 
-->OK - 006. Faça um Programa que peça o raio de um círculo, calcule e mostre sua área.->OK
+006. Faça um Programa que peça o raio de um círculo, calcule e mostre sua área.->OK
 
-->OK - 007. Faça um Programa que calcule a área de um quadrado, em seguida mostre o dobro desta área para o usuário. ->OK
+007. Faça um Programa que calcule a área de um quadrado, em seguida mostre o dobro desta área para o usuário. ->OK
 
-->OK - 008. Faça um Programa que pergunte quanto você ganha por hora e o número de horas trabalhadas no mês. Calcule e mostre o total do seu salário no referido mês. ->OK
+008. Faça um Programa que pergunte quanto você ganha por hora e o número de horas trabalhadas no mês. Calcule e mostre o total do seu salário no referido mês. ->OK
 
-->OK - 009. Faça um Programa que peça a temperatura em graus Fahrenheit, transforme e mostre a temperatura em graus Celsius. ->OK
+009. Faça um Programa que peça a temperatura em graus Fahrenheit, transforme e mostre a temperatura em graus Celsius. ->OK
 C = 5 * ((F-32) / 9).
 
-->OK -  010. Faça um Programa que peça a temperatura em graus Celsius, transforme e mostre em graus Fahrenheit. ->OK
+010. Faça um Programa que peça a temperatura em graus Celsius, transforme e mostre em graus Fahrenheit. ->OK
 
-->OK -  011. Faça um Programa que peça 2 números inteiros e um número real. Calcule e mostre:
+011. Faça um Programa que peça 2 números inteiros e um número real. Calcule e mostre:
 o produto do dobro do primeiro com metade do segundo .
 a soma do triplo do primeiro com o terceiro.
 o terceiro elevado ao cubo.->OK
 
-->OK - 012. Tendo como dados de entrada a altura de uma pessoa, construa um algoritmo que calcule seu peso ideal, usando a seguinte fórmula: (72.7*altura) - 58 ->OK - 
+012. Tendo como dados de entrada a altura de uma pessoa, construa um algoritmo que calcule seu peso ideal, usando a seguinte fórmula: (72.7*altura) - 58 ->OK - 
 
 013. Tendo como dado de entrada a altura (h) de uma pessoa, construa um algoritmo que calcule seu peso ideal, utilizando as seguintes fórmulas:
 Para homens: (72.7*h) - 58
@@ -55,7 +55,7 @@ Obs.: Salário Bruto - Descontos = Salário Líquido.
 
 016. Faça um programa para uma loja de tintas. O programa deverá pedir o tamanho em metros quadrados da área a ser pintada. Considere que a cobertura da tinta é de 1 litro para cada 3 metros quadrados e que a tinta é vendida em latas de 18 litros, que custam R$ 80,00. Informe ao usuário a quantidades de latas de tinta a serem compradas e o preço total.
 
-->OK -017. Faça um Programa para uma loja de tintas. O programa deverá pedir o tamanho em metros quadrados da área a ser pintada. Considere que a cobertura da tinta é de 1 litro para cada 6 metros quadrados e que a tinta é vendida em latas de 18 litros, que custam R$ 80,00 ou em galões de 3,6 litros, que custam R$ 25,00. ->OK
+017. Faça um Programa para uma loja de tintas. O programa deverá pedir o tamanho em metros quadrados da área a ser pintada. Considere que a cobertura da tinta é de 1 litro para cada 6 metros quadrados e que a tinta é vendida em latas de 18 litros, que custam R$ 80,00 ou em galões de 3,6 litros, que custam R$ 25,00. ->OK
 Informe ao usuário as quantidades de tinta a serem compradas e os respectivos preços em 3 situações:
 comprar apenas latas de 18 litros;
 comprar apenas galões de 3,6 litros;
