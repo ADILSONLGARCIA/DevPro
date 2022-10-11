@@ -57,7 +57,10 @@ cabecalho= '''ACME Inc.               Uso do espaço em disco pelos usuários
 ------------------------------------------------------------------------
 Nr.  Usuário        Espaço utilizado     % do uso
 '''
+n = int(input('Informe quantos históricos deseja ver: '))
 dados.sort(reverse = True)
+dados = dados[:n]
+
 with open('sample_data/relatório.txt', 'w') as arquivo:
   tamanho_total_consumido = sum( [tamanho for tamanho,_ in dados] )
   arquivo.writelines(cabecalho)
