@@ -51,15 +51,16 @@ with open ('sample_data/usuarios.txt', 'r') as arquivo:
     linha = linha.strip()
     usuario = linha[:15]
     tamanho_em_disco = transformar_em_megabytes(linha[16:])
-    dados.append( (usuario, tamanho_em_disco) )
+    dados.append( (tamanho_em_disco, usuario) )
 
 cabecalho= '''ACME Inc.               Uso do espaço em disco pelos usuários
 ------------------------------------------------------------------------
 Nr.  Usuário        Espaço utilizado     % do uso
 '''
+dados.sort(reverse = True)
 with open('sample_data/relatório.txt', 'w') as arquivo:
-  tamanho_total_consumido = sum( [tamanho for _, tamanho in dados] )
+  tamanho_total_consumido = sum( [tamanho for tamanho,_ in dados] )
   arquivo.writelines(cabecalho)
   for indice, dados in enumerate( dados, start=1 ):
-    usuario, tamanho_em_disco = dados
+    tamanho_em_disco, usuario = dados
     arquivo.writelines(f'{indice:<4} {usuario} {tamanho_em_disco:9.2f} MB          {tamanho_em_disco/tamanho_total_consumido:.2%}\n')
